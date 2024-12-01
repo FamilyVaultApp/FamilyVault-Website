@@ -13,11 +13,6 @@ const TopBar = () => {
               </NavLink>
             </b>
           </div>
-          <div className="p-2 ms-auto item">
-            <NavLink to="/portfolio" className="link">
-              Link
-            </NavLink>
-          </div>
         </div>
       </div>
     </>

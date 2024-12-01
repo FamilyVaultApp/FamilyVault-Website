@@ -12,5 +12,24 @@
 .infobox-title {
     font-size: 3rem;
     text-align: center;
+    font-weight: bold;
 }
 
+.infobox-img {
+    min-width: 25%;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    align-items: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+.infobox-content {
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: "Outfit";
+}

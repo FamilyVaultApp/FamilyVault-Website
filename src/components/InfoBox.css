@@ -1,0 +1,16 @@
+.infobox-border {
+    border-radius: 2rem;
+}
+
+.infobox {
+    background-color: #232323;
+    min-height: auto;
+    color: white;
+    font-family: "Outfit";
+}
+
+.infobox-title {
+    font-size: 3rem;
+    text-align: center;
+}
+

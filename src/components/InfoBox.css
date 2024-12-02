@@ -1,11 +1,7 @@
-.infobox-border {
-    border-radius: 2rem;
-}
-
 .infobox {
-    background-color: #232323;
+    background-color: #fafafa;
     min-height: auto;
-    color: white;
+    color: black;
     font-family: "Outfit";
 }
 

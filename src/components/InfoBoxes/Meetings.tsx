@@ -2,7 +2,6 @@ import "./Meetings.css";
 const Meetings = () => {
   return (
     <>
-      <br />
       <div className="infobox-border">
         <div className="infobox container-xxl bd-gutter rounded-2">
           <div className="infobox-title">Spotkania zespołu</div>
@@ -49,7 +48,6 @@ const Meetings = () => {
           <br />
         </div>
       </div>
-      <br />
     </>
   );
 };

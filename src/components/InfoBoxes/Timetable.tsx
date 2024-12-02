@@ -2,7 +2,6 @@ import "./Meetings.css";
 const Timetable = () => {
   return (
     <>
-      <br />
       <div className="infobox-border">
         <div className="infobox container-xxl bd-gutter rounded-2">
           <div className="infobox-title">Harmonogram pracy</div>

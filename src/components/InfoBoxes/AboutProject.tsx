@@ -22,7 +22,6 @@ const AboutProject = () => {
           <br />
         </div>
       </div>
-      <br />
     </>
   );
 };

@@ -5,9 +5,9 @@ import "./TeamMembers.css";
 const TeamMembers = () => {
   return (
     <>
-      <br />
       <div className="infobox-border">
         <div className="infobox container-xxl bd-gutter rounded-2">
+          <br />
           <div className="infobox-title">Zespół nr 1</div>
           <div className="infobox-img">
             <img src="/placeholder.jpg"></img>
@@ -50,7 +50,6 @@ const TeamMembers = () => {
           <br />
         </div>
       </div>
-      <br />
     </>
   );
 };

@@ -11,13 +11,9 @@ function App() {
     <>
       <TopBar />
       <AboutProject />
-      <br />
       <TeamMembers />
-      <br />
       <Meetings />
-      <br />
       <Timetable />
-      <br />
       <Footer />
     </>
   );

@@ -1,6 +1,8 @@
 import React from "react";
 import "../InfoBox.css";
 import "./TeamMembers.css";
+import Team from "../InfoBoxesComponents/Team";
+import zdjecie from "/placeholder.jpg";
 
 const TeamMembers = () => {
   return (
@@ -9,44 +11,12 @@ const TeamMembers = () => {
         <div className="infobox container-xxl bd-gutter rounded-2">
           <br />
           <div className="infobox-title">Zespół nr 1</div>
-          <div className="infobox-img">
-            <img src="/placeholder.jpg"></img>
-          </div>
-          <div className="row team-members">
-            <div className="col team-member"></div>
-            <div className="col team-member">
-              <b>Błażej Zyglarski</b> <br />
-              <i>Opiekun projektu</i>
-            </div>
-            <div className="col team-member"></div>
+          <br />
+          <div className="team-img">
+            <img src={zdjecie} className="infobox-img"></img>
           </div>
           <br />
-          <div className="row team-members">
-            <div className="col team-member">
-              <b>Jakub Pawłowski</b> <br />
-              <i>Kierownik projektu</i>
-            </div>
-            <div className="col"></div>
-            <div className="col team-member">
-              <b>Adam Cedro</b> <br />
-              <i>Programista</i>
-            </div>
-            <div className="col"></div>
-            <div className="col team-member">
-              <b>Sajmon Koniec</b> <br />
-              <i>Programista</i>
-            </div>
-            <div className="col"></div>
-            <div className="col team-member">
-              <b>Filip Stefański</b> <br />
-              <i>Programista</i>
-            </div>
-            <div className="col"></div>
-            <div className="col team-member">
-              <b>Bartłomiej Wiśniewski</b> <br />
-              <i>Sekretarz projektu</i>
-            </div>
-          </div>
+          <Team />
           <br />
         </div>
       </div>

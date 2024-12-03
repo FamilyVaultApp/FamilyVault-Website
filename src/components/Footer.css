@@ -1,12 +1,12 @@
 .bottombar {
     position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     background-color: #3b0b9b;
     color: white;
     font-family: "Outfit";
-    font-size:1rem;
+    font-size: 1rem;
     text-align: start;
     text-decoration: none;
     padding: 0.3rem;

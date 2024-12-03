@@ -12,15 +12,13 @@
 }
 
 .infobox-img {
-    min-width: 25%;
-    max-width: 100%;
+    max-width: 90%;
+    min-width: 100px;
     height: auto;
-    position: relative;
     align-items: center;
-    display: flex; 
     justify-content: center; 
     align-items: center;
-    margin-bottom: 2rem;
+    text-align: center;
 }
 
 

@@ -1,14 +1,13 @@
 import "../InfoBox.css";
 import "./AboutProject.css";
+import InfoBoxHeader from "../InfoBoxHeader.tsx";
 
 const AboutProject = () => {
   return (
     <>
-      <br />
       <div className="infobox-border">
         <div className="infobox container-xxl bd-gutter rounded-2">
-          <div className="infobox-title">O aplikacji</div>
-          <br />
+          <InfoBoxHeader>O aplikacji</InfoBoxHeader>
           <div className="infobox-content about-project">
             FamilyConnector to aplikacja rodzinna, która wykorzystuje
             zaawansowane szyfrowanie End-to-End (E2E) przy użyciu biblioteki

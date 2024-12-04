@@ -1,19 +1,15 @@
-import AboutProject from "./components/InfoBoxes/AboutProject";
-import Meetings from "./components/InfoBoxes/Meetings";
-import TeamMembers from "./components/InfoBoxes/TeamMembers";
-import Timetable from "./components/InfoBoxes/Timetable";
+import "./App.css"
 import "bootstrap/dist/css/bootstrap.css";
 import WelcomeAnimation from "./components/WelcomeAnimation/WelcomeAnimation.tsx";
+import ProjectInfo from "./components/ProjectInfo.tsx";
 
 function App() {
     return (
         <>
             <WelcomeAnimation/>
-            <AboutProject/>
-            <TeamMembers/>
-            <Meetings/>
-            <Timetable/>
+            <ProjectInfo />
         </>
+
     );
 }
 

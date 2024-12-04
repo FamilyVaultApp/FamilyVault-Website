@@ -9,6 +9,8 @@
 
 section {
   &.welcome-animation {
+    position: relative;
+    overflow: hidden;
     background: linear-gradient(0deg, #003576 0%, #000000 60%,  #000000 100%);
     background-size: 100% 150%;
 

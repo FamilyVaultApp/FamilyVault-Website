@@ -1,15 +1,28 @@
-import React from "react";
 import "../InfoBoxes/TeamMembers.css";
 const Team = () => {
   return (
     <>
       <div className="row team-members">
-        <div className="col team-member"></div>
+        <div className="col team-member">
+          <b> </b> <br />
+          <i> </i>
+        </div>
+        <div className="col team-member">
+          <b></b> <br />
+          <i></i>
+        </div>
         <div className="col team-member">
           <b>Błażej Zyglarski</b> <br />
           <i>Opiekun projektu</i>
         </div>
-        <div className="col team-member"></div>
+        <div className="col team-member">
+          <b></b> <br />
+          <i></i>
+        </div>
+        <div className="col team-member">
+          <b></b> <br />
+          <i></i>
+        </div>
       </div>
       <br />
       <div className="row team-members">

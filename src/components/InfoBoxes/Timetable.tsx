@@ -5,6 +5,7 @@ const Timetable = () => {
     <>
       <div className="infobox-border">
         <div className="infobox container-xxl bd-gutter rounded-2">
+          <br />
           <div className="infobox-title">Harmonogram pracy</div>
           <div className="meetings-list-title">
             Planowany harmonogram pracy nad projektem:

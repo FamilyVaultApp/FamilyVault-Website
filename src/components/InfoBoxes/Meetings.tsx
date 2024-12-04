@@ -5,7 +5,9 @@ const Meetings = () => {
     <>
       <div className="infobox-border">
         <div className="infobox container-xxl bd-gutter rounded-2">
+          <br />
           <div className="infobox-title">Spotkania zespołu</div>
+          <br />
           <div className="infobox-content">
             Spotkania zespołu odbywają się w środy w trybie dwutygodniowym w
             siedzibie firmy <b>Simplito</b> - opiekuna projektu. <br />

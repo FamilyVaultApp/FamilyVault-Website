@@ -1,4 +1,3 @@
-import React from "react";
 import "../InfoBoxes/Meetings.css";
 const MeetingsList = () => {
   return (

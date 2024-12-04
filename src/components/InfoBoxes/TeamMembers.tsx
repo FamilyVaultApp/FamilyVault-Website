@@ -1,4 +1,3 @@
-import React from "react";
 import "../InfoBox.css";
 import "./TeamMembers.css";
 import Team from "../InfoBoxesComponents/Team";
@@ -13,7 +12,11 @@ const TeamMembers = () => {
           <div className="infobox-title">Zespół nr 1</div>
           <br />
           <div className="team-img">
-            <img src={zdjecie} className="infobox-img"></img>
+            <img
+              src={zdjecie}
+              className="infobox-img"
+              alt="Zdjęcie zespołu"
+            ></img>
           </div>
           <br />
           <Team />

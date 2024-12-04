@@ -1,0 +1,28 @@
+.infobox {
+    background-color: #fafafa;
+    min-height: auto;
+    color: black;
+    font-family: "Outfit";
+}
+
+.infobox-title {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.infobox-img {
+    max-width: 90%;
+    min-width: 100px;
+    height: auto;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+
+
+.infobox-content {
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: "Outfit";
+}

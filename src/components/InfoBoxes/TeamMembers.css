@@ -1,9 +1,18 @@
 .team-member {
-    font-size: 1.5rem;
+    font-size: larger;
     text-align: center;
     text-wrap: nowrap;
 }
 
 .team-members {
+    padding: 1rem;
+}
+
+.team-img {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    width: 100%;           
+    margin: auto;        
     padding: 1rem;
 }

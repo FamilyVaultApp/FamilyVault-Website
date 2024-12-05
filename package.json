@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build --base=/pz2024/zesp01",
     "lint": "eslint .",
     "preview": "vite preview"
   },

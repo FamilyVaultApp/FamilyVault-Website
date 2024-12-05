@@ -104,5 +104,8 @@ $RECYCLE.BIN/
 # IntelliJ 
 .idea
 
+# Build output
+dist/
+
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,react,windows,linux
 

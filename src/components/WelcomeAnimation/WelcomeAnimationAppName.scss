@@ -1,11 +1,11 @@
 @keyframes introduceAppNameAnimation {
   0% {
     opacity: 0;
-    top: 40%;
+    bottom: 30rem;
   }
   100% {
     opacity: 1;
-    top: 15vh;
+    bottom: 39rem;
   }
 }
 
@@ -19,7 +19,7 @@ div {
     font-weight: bold;
 
     position: absolute;
-    top: 40%;
+    bottom: 30rem;
     left: 50%;
     transform: translateX(-50%);
 

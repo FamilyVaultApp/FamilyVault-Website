@@ -1,0 +1,38 @@
+@keyframes introduceAppNameAnimation {
+  0% {
+    opacity: 0;
+    bottom: 30rem;
+  }
+  100% {
+    opacity: 1;
+    bottom: 39rem;
+  }
+}
+
+div {
+  &.welcome-animation__app-name {
+    font-family: "Lato", sans-serif;
+
+    opacity: 0;
+    color: white;
+
+    font-weight: bold;
+
+    position: absolute;
+    bottom: 30rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+    animation-name: introduceAppNameAnimation;
+    animation-delay: 2.5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.08,.82,.17,1);
+
+    h1 {
+      font-size: xxx-large;
+      text-wrap: nowrap;
+    }
+  }
+}
+

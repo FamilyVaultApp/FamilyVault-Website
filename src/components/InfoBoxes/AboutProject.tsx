@@ -1,22 +1,22 @@
 import "../InfoBox.css";
 import "./AboutProject.css";
+import InfoBoxHeader from "../InfoBoxHeader.tsx";
 
 const AboutProject = () => {
   return (
     <>
-      <br />
       <div className="infobox-border">
         <div className="infobox container-xxl bd-gutter rounded-2">
-          <div className="infobox-title">O aplikacji</div>
-          <br />
+          <InfoBoxHeader>O aplikacji</InfoBoxHeader>
           <div className="infobox-content about-project">
-            FamilyConnector to aplikacja rodzinna, która wykorzystuje
-            zaawansowane szyfrowanie End-to-End (E2E) przy użyciu biblioteki
-            PrivMX. Jej głównym celem jest zapewnienie rodzinom sposobu na
-            kontakt na odległość, bezpiecznego miejsca na przechowywanie ważnych
-            dokumentów, jak również przekazywaniu informacji o obowiązkach do
-            wykonania. Aplikacja jest zaprojektowana z myślą o prostocie
-            obsługi, aby była intuicyjna zarówno dla dzieci, jak i seniorów.
+            FamilyConnector to mobilna aplikacja stworzona z myślą o rodzinach.
+            Oferuje funkcje ułatwiające codzienne życie, takie jak: <br />
+            - bezpieczna komunikacja między członkami rodziny, <br />
+            - przechowywanie ważnych dokumentów w jednym miejscu, <br />
+            - tworzenie list zakupów dostępnych dla wszystkich, <br />
+            - i wiele więcej. <br />
+            Dzięki zastosowaniu szyfrowania End-to-End (E2E) opartego na bibliotece PrivMX by Simplito, użytkownicy mogą mieć pewność, że ich dane są w pełni chronione.
+            Prosta i intuicyjna obsługa sprawia, że aplikacja jest przyjazna zarówno dla dzieci, jak i dorosłych.
           </div>
           <br />
         </div>

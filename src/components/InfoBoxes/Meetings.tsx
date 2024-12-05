@@ -1,12 +1,13 @@
 import MeetingsList from "../InfoBoxesComponents/MeetingsList";
-import "./Meetings.css";
+import InfoBoxHeader from "../InfoBoxHeader.tsx";
+
 const Meetings = () => {
   return (
     <>
       <div className="infobox-border">
         <div className="infobox container-xxl bd-gutter rounded-2">
           <br />
-          <div className="infobox-title">Spotkania zespołu</div>
+          <InfoBoxHeader>Spotkania zespołu</InfoBoxHeader>
           <br />
           <div className="infobox-content">
             Spotkania zespołu odbywają się w środy w trybie dwutygodniowym w
@@ -16,9 +17,6 @@ const Meetings = () => {
             <br />
           </div>
           <br />
-          <div className="meetings-list-title">
-            Obecny spis spotkań zespołu:
-          </div>
           <MeetingsList />
           <br />
         </div>

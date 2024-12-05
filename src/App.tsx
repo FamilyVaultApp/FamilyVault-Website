@@ -1,22 +1,16 @@
-import Footer from "./components/Footer";
-import AboutProject from "./components/InfoBoxes/AboutProject";
-import Meetings from "./components/InfoBoxes/Meetings";
-import TeamMembers from "./components/InfoBoxes/TeamMembers";
-import Timetable from "./components/InfoBoxes/Timetable";
-import TopBar from "./components/TopBar";
+import "./App.css"
 import "bootstrap/dist/css/bootstrap.css";
+import WelcomeAnimation from "./components/WelcomeAnimation/WelcomeAnimation.tsx";
+import ProjectInfo from "./components/ProjectInfo.tsx";
 
 function App() {
-  return (
-    <>
-      <TopBar />
-      <AboutProject />
-      <TeamMembers />
-      <Meetings />
-      <Timetable />
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <WelcomeAnimation/>
+            <ProjectInfo />
+        </>
+
+    );
 }
 
 export default App;

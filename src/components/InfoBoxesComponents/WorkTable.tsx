@@ -1,67 +1,46 @@
-import "../InfoBoxes/Meetings.css";
+import MeetingEntry from "./MeetingEntry.tsx";
 
 const WorkTable = () => {
   return (
-    <>
-      <div className="meetings-list">
-        <ul>
-          <li>
-            Listopad
-            <ul>
-              <li>Zapoznanie zespołu z opiekunem</li>
-              <li>Wybór tematu projektu</li>
-            </ul>
-          </li>
-          <br />
-          <li>
-            Grudzień
-            <ul>
-              <li>
-                Zapoznanie z narzędziami potrzebnymi do stworzenia projektu
-              </li>
-              <li>Rozważania nad funkcjonalnością projektu</li>
-            </ul>
-          </li>
-          <br />
-          <li>
-            Styczeń
-            <ul>
-              <li>Początek praktycznej budowy projektu</li>
-            </ul>
-          </li>
-          <br />
-          <li>
-            Luty
-            <ul>
-              <li>Praca nad implementacją projektu</li>
-            </ul>
-          </li>
-          <br />
-          <li>
-            Marzec
-            <ul>
-              <li>Praca nad implementacją projektu</li>
-            </ul>
-          </li>
-          <br />
-          <li>
-            Kwiecień
-            <ul>
-              <li>Praca nad implementacją projektu</li>
-            </ul>
-          </li>
-          <br />
-          <li>
-            Maj
-            <ul>
-              <li>Przygotowanie prezentacji projektu</li>
-              <li>Ostateczne poprawki</li>
-              <li>Prezentacja projektu</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </>
+      <>
+        <div className="meetings-list">
+          <MeetingEntry
+              title="Listopad"
+              agendaItems={["Zapoznanie zespołu z opiekunem", "Wybór tematu projektu"]}
+          />
+          <MeetingEntry
+              title="Grudzień"
+              agendaItems={[
+                "Zapoznanie z narzędziami potrzebnymi do stworzenia projektu",
+                "Rozważania nad funkcjonalnością projektu",
+              ]}
+          />
+          <MeetingEntry
+              title="Styczeń"
+              agendaItems={["Początek praktycznej budowy projektu"]}
+          />
+          <MeetingEntry
+              title="Luty"
+              agendaItems={["Praca nad implementacją projektu"]}
+          />
+          <MeetingEntry
+              title="Marzec"
+              agendaItems={["Praca nad implementacją projektu"]}
+          />
+          <MeetingEntry
+              title="Kwiecień"
+              agendaItems={["Praca nad implementacją projektu"]}
+          />
+          <MeetingEntry
+              title="Maj"
+              agendaItems={[
+                "Przygotowanie prezentacji projektu",
+                "Ostateczne poprawki",
+                "Prezentacja projektu",
+              ]}
+          />
+        </div>
+      </>
   );
 };
 

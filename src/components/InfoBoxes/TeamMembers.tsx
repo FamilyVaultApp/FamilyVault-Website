@@ -10,9 +10,7 @@ const TeamMembers = () => {
       <div className="infobox-border">
         <div className="infobox container-xxl bd-gutter rounded-2">
           <br />
-          <InfoBoxHeader>
-            Zespół nr 1
-          </InfoBoxHeader>
+          <InfoBoxHeader>Zespół nr 1</InfoBoxHeader>
           <br />
           <div className="team-img">
             <img

@@ -50,6 +50,30 @@ const MeetingsList = () => {
           date="22 stycznia 2025"
           agendaItems={["Szkolenie z narzędzia Figma"]}
         />
+        <MeetingEntry
+          title="Omówienie postępów"
+          date="19 lutego 2025"
+          agendaItems={[
+            "Przygotowanie ankiety dla grupy docelowej", 
+            "Przedstawienie efektów pracy nad aplikacją"
+          ]}
+        />
+        <MeetingEntry
+          title="Omówienie postępów"
+          date="10 marca 2025"
+          agendaItems={[
+            "Przedstawienie efektów pracy nad aplikacją",
+            "Przedstawienie dalszego planu pracy" 
+          ]}
+        />
+        <MeetingEntry
+          title="Omówienie postępów"
+          date="24 marca 2025"
+          agendaItems={[
+            "Przedstawienie modułu dodawania nowych użytkowników w aplikacji",
+            "Omówienie dalszych planów rozwoju aplikacji"
+          ]}
+        />
       </div>
     </>
   );

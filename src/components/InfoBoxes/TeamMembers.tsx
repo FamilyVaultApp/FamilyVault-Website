@@ -1,7 +1,7 @@
 import "../InfoBox.css";
 import "./TeamMembers.css";
 import Team from "../InfoBoxesComponents/Team";
-import zdjecie from "/placeholder.jpg";
+import zdjecie from "/team_photo.jpg";
 import InfoBoxHeader from "../InfoBoxHeader.tsx";
 
 const TeamMembers = () => {

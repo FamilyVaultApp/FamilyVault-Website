@@ -1,0 +1,47 @@
+.report-file-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.report-file-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.report-file-card-icon {
+  font-size: 45px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0078d4;
+}
+
+.report-file-card-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.report-file-card-author {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+  width: 100%;
+}

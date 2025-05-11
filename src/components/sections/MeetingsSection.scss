@@ -1,0 +1,14 @@
+div.meetings-section {
+  text-align: center;
+
+  .meetings-header {
+    margin-block-end: 5rem
+  }
+}
+
+div.calendar-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}

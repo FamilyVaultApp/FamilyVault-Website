@@ -1,0 +1,43 @@
+.documentation-section {
+  margin-block: 10rem;
+  text-align: center;
+
+  &-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      width: min(45rem, 100%);
+    }
+  }
+
+  &-link {
+
+    margin-top: 4rem;
+
+    a {
+      display: inline-block;
+      padding: 16px 32px;
+      background-color: #0065ce;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+
+      &.disabled {
+        background-color: #a0a0a0;
+        pointer-events: none;
+        cursor: not-allowed;
+        color: #eee;
+      }
+    }
+  }
+}

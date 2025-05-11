@@ -1,0 +1,82 @@
+$numberOfFeatures: 5;
+
+@function calculateLeftOfFeature($n) {
+  $verticalMargin: 10%;
+  $featureLeftGap: (100% - $verticalMargin * 2) / ($numberOfFeatures + 1);
+  @return $verticalMargin + ($featureLeftGap * $n);
+}
+
+@function calculateTopOfFeature($n) {
+  $halfOfNumberOfFeatures: $numberOfFeatures / 2;
+  $featureTopGap: 30% / ($halfOfNumberOfFeatures);
+  $topValue: 45%;
+
+  @for $i from 1 through $n {
+    @if ($i < $halfOfNumberOfFeatures+1) {
+      $topValue: $topValue - $featureTopGap;
+    } @else {
+      $topValue: $topValue + $featureTopGap;
+    }
+  }
+
+  @return $topValue;
+}
+
+@mixin nFeatureToCenter($n) {
+  $top: calculateTopOfFeature($n);
+  $left: calculateLeftOfFeature($n);
+  $keyframes-name: featureToCenter-#{$n};
+
+  @keyframes #{$keyframes-name} {
+    0% {
+      top: $top;
+      left: $left;
+    }
+    100% {
+      top: 65%;
+      left: 50%;
+      width: 1rem;
+      opacity: 0;
+    }
+  }
+
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(.95, .05, .8, .04);
+  animation-name: #{$keyframes-name};
+}
+
+@keyframes showFeaturesAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+div {
+  &.welcome-animation {
+    &__feature_group {
+      opacity: 0;
+      animation-name: showFeaturesAnimation;
+      animation-delay: 0.5s;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+
+      &__feature {
+        position: absolute;
+        transform: translateX(-50%);
+
+        @for $i from 1 through $numberOfFeatures {
+          &:nth-child(#{$i}) {
+            @include nFeatureToCenter($i);
+            top: calculateTopOfFeature($i);
+            left: calculateLeftOfFeature($i);
+          }
+        }
+      }
+    }
+  }
+}

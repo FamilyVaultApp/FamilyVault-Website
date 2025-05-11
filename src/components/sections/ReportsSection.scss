@@ -1,0 +1,12 @@
+.reports-section {
+  text-align: center;
+
+  .reports {
+    margin-block: 5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

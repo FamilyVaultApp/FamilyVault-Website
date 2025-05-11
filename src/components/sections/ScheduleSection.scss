@@ -1,0 +1,16 @@
+div.schedule-section {
+  margin-block: 10rem;
+
+  h1 {
+    text-align: center;
+  }
+
+  .schedule-items {
+    margin-top: 5rem;
+
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+}

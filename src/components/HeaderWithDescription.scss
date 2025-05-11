@@ -1,0 +1,20 @@
+$icon-size: 4rem;
+
+.header-with-description {
+  svg {
+    width: $icon-size;
+    height: $icon-size;
+    color: #0065ce;
+  }
+
+  h3 {
+    margin-top: 1em;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    font-size: large;
+  }
+}

@@ -1,0 +1,13 @@
+div.schedule-card {
+  text-align: center;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .description {
+    p {
+      margin: 0;
+    }
+  }
+}

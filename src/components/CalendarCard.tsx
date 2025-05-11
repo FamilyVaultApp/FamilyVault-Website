@@ -8,10 +8,10 @@ interface CalendarCardProps {
 }
 
 const CalendarCard = ({month, day, description}: CalendarCardProps) => {
-    return <div className="calendar_card">
-        <p className="calendar_card__month">{month}</p>
-        <p className="calendar_card__day">{day}</p>
-        <div className="calendar_card__description">
+    return <div className="calendar-card">
+        <p className="calendar-card-month">{month}</p>
+        <p className="calendar-card-day">{day}</p>
+        <div className="calendar-card-description">
             {description}
         </div>
     </div>

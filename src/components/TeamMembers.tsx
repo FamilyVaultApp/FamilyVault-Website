@@ -6,9 +6,9 @@ interface TeamMemberProps {
 }
 
 const TeamMembers = ({members}: TeamMemberProps) => {
-    return <div className="team_members">
+    return <div className="team-members">
         {members.map((member) =>
-            <div className="team_member" key={member.fullName}>
+            <div className="team-member" key={member.fullName}>
                 <PersonRegular/>
                 <h4>{member.fullName}</h4>
                 <p>{member.role}</p>

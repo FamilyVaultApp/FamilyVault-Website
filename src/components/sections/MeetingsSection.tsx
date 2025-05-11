@@ -88,14 +88,14 @@ const meetings: Meeting[] = [
 
 const MeetingsSection = () => {
     return <Section>
-        <div className="meetings_section">
-            <div className="meetings_header">
+        <div className="meetings-section">
+            <div className="meetings-header">
             <h1>Spotkania zespołu</h1>
             <p>Spotkania zespołu odbywają się w poniedziałki w trybie dwutygodniowym w siedzibie firmy Simplito -
                 opiekuna projektu.
             </p>
             </div>
-            <div className="calendar_cards">
+            <div className="calendar-cards">
                 {
                     meetings.map(meeting => (
                         <CalendarCard month={meeting.month} day={meeting.day} description={meeting.description}/>

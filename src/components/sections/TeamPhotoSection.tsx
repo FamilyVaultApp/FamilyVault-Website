@@ -34,9 +34,9 @@ const teamMembers: TeamMemberModel[] = [
 
 const TeamPhotoSection = () => {
     return <Section>
-        <div className="team_photo_section">
+        <div className="team-photo-section">
             <h1>Poznaj <AnimatedHighlightedText>Zespół nr 1</AnimatedHighlightedText></h1>
-            <img className="team_photo" src={teamPhotoImgSrc} alt="FamilyVault Team"/>
+            <img className="team-photo" src={teamPhotoImgSrc} alt="FamilyVault Team"/>
             <TeamMembers members={teamMembers}/>
         </div>
     </Section>

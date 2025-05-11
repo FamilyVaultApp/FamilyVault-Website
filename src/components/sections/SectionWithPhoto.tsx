@@ -11,11 +11,11 @@ interface ISectionWithPhotoProps {
 
 const SectionWithPhoto = ({children, photo, reversed}: ISectionWithPhotoProps) => {
     return <Section>
-        <div className={classNames("section_with_photo", {"reversed": reversed})}>
-            <div className="section_description">
+        <div className={classNames("section-with-photo", {"reversed": reversed})}>
+            <div className="section-description">
                 {children}
             </div>
-            <div className="section_photo">
+            <div className="section-photo">
                 <img src={photo} alt="Zdjęcie"/>
             </div>
         </div>

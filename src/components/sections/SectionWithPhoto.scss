@@ -1,19 +1,19 @@
-.section_with_photo {
+.section-with-photo {
   display: flex;
   flex-direction: row;
   align-items: center;
 
-  .section_description,
-  .section_photo {
+  .section-description,
+  .section-photo {
     max-height: 100vh;
     width: 50%;
   }
 
-  .section_description {
+  .section-description {
     height: 100%;
   }
 
-  .section_photo {
+  .section-photo {
     height: 100%;
     display: flex;
     justify-content: center;

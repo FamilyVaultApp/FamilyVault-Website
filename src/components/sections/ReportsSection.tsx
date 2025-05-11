@@ -7,32 +7,32 @@ const reports: ReportFileModel[] = [
     {
         title: "Raport zespołu",
         author: "",
-        link: "/raports/raport_zespolu.pdf"
+        link: "raports/raport_zespolu.pdf"
     },
     {
         title: "Raport semestralny",
         author: "Jakub Pawłowski",
-        link: "/raports/raport_jp.pdf"
+        link: "raports/raport_jp.pdf"
     },
     {
         title: "Raport semestralny",
         author: "Adam Cedro",
-        link: "/raports/raport_ac.pdf"
+        link: "raports/raport_ac.pdf"
     },
     {
         title: "Raport semestralny",
         author: "Sajmon Koniec",
-        link: "/raports/raport_sk.pdf"
+        link: "raports/raport_sk.pdf"
     },
     {
         title: "Raport semestralny",
         author: "Filip Stefański",
-        link: "/raports/raport_fs.pdf"
+        link: "raports/raport_fs.pdf"
     },
     {
         title: "Raport semestralny",
         author: "Bartłomiej Wiśniewski",
-        link: "/raports/raport_bw.pdf"
+        link: "raports/raport_bw.pdf"
     }
 ];
 

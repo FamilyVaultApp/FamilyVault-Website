@@ -1,8 +1,9 @@
 import Section from "./Section.tsx";
 import "./MeetingsSection.scss";
 import CalendarCard from "../CalendarCard.tsx";
+import { MeetingModel } from "../../models/MeetingModel.ts";
 
-const meetings: Meeting[] = [
+const meetings: MeetingModel[] = [
     {
         day: 6,
         month: "Listopad",

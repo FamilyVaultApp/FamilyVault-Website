@@ -3,7 +3,7 @@ import "./CalendarCard.scss";
 
 interface CalendarCardProps {
     month: string,
-    day: string,
+    day: number,
     description: ReactNode
 }
 

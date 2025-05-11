@@ -1,8 +1,9 @@
 import { PersonRegular } from "@fluentui/react-icons";
 import "./TeamMembers.scss";
+import { TeamMemberModel } from "../models/TeamMemberModel.ts";
 
 interface TeamMemberProps {
-    members: TeamMember[];
+    members: TeamMemberModel[];
 }
 
 const TeamMembers = ({ members }: TeamMemberProps) => {

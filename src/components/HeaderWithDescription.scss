@@ -18,3 +18,21 @@ $icon-size: 4rem;
     font-size: large;
   }
 }
+
+@media (max-width: 720px) {
+  .header-with-description {
+    &-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+    p {
+      text-align: justify;
+    }
+  }
+}

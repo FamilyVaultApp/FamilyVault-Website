@@ -1,4 +1,4 @@
-div.schedule-section {
+.schedule-section {
   margin-block: 10rem;
 
   h1 {
@@ -12,5 +12,13 @@ div.schedule-section {
     flex-direction: row;
     gap: 2rem;
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 720px) {
+  .schedule-section {
+    .schedule-items {
+      justify-content: center;
+    }
   }
 }

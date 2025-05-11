@@ -16,7 +16,7 @@ function App() {
         <>
             <WelcomeAnimation />
             <MottoSection />
-            <div className="app_info_sections">
+            <div className="app-info-sections">
                 <JoinSection />
                 <ChatSection />
                 <TasksSection />

@@ -9,7 +9,9 @@ interface HeaderWithDescriptionProps {
 
 const HeaderWithDescription = ({ icon, title, children }: HeaderWithDescriptionProps) => {
     return <div className="header-with-description">
-        {icon}
+        <div className="header-with-description-icon">
+            {icon}
+        </div>
         <h3>{title}</h3>
         <p>{children}</p>
     </div>;

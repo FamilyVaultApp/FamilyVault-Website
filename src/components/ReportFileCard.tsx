@@ -7,13 +7,13 @@ interface ReportFileCardProps {
 }
 
 const ReportFileCard = ({ file }: ReportFileCardProps) => {
-    return <div className="report-file-card">
-        <a href={file.link} target="_blank" rel="noopener noreferrer">
+    return <a href={file.link} target="_blank" rel="noopener noreferrer">
+        <div className="report-file-card">
             <div className="report-file-card-icon"><DocumentPdfRegular /></div>
             <div className="report-file-card-title">{file.title}</div>
             <div className="report-file-card-author">{file.author}</div>
-        </a>
-    </div>;
+        </div>
+    </a>;
 };
 
 export default ReportFileCard;

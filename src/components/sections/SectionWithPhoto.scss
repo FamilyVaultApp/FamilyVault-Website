@@ -26,3 +26,16 @@
     }
   }
 }
+
+@media (max-width: 720px) {
+  .section-with-photo {
+    flex-direction: column;
+
+    gap: 5em;
+
+    .section-description,
+    .section-photo {
+      width: 100%;
+    }
+  }
+}

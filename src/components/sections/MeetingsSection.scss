@@ -6,9 +6,16 @@ div.meetings-section {
   }
 }
 
-div.calendar-cards {
+.calendar-cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 2rem;
+}
+
+
+@media (max-width: 720px) {
+  .calendar-cards {
+    justify-content: center;
+  }
 }

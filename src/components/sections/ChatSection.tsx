@@ -1,11 +1,11 @@
 import SectionWithPhoto from "./SectionWithPhoto.tsx";
-import chatGifSrc from "../../assets/chat.gif"
+import chatGifSrc from "../../assets/chat.gif";
 import HeaderWithDescription from "../HeaderWithDescription.tsx";
-import {ChatRegular} from "@fluentui/react-icons";
+import { ChatRegular } from "@fluentui/react-icons";
 
 const ChatSection = () => {
     return <SectionWithPhoto photo={chatGifSrc} reversed={false}>
-        <HeaderWithDescription title="Szyfrowane rozmowy" icon={<ChatRegular/>}>
+        <HeaderWithDescription title="Szyfrowane rozmowy" icon={<ChatRegular />}>
             <p>
                 Wymiana informacji między członkami rodziny powinna być <b>prosta</b> i <b>bezpieczna</b>. W naszej
                 aplikacji umożliwiamy wysyłanie zdjęć, wiadomości głosowych oraz tekstowych.
@@ -16,7 +16,7 @@ const ChatSection = () => {
                 pewność, że tylko osoby, które są w Twoim czacie, będą mogły odczytać wysłane treści.
             </p>
         </HeaderWithDescription>
-    </SectionWithPhoto>
-}
+    </SectionWithPhoto>;
+};
 
 export default ChatSection;

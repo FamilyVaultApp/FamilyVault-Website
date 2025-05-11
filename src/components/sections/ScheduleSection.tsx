@@ -1,6 +1,6 @@
 import Section from "./Section";
-import "./ScheduleSection.scss"
-import {ScheduleModel} from "../../models/ScheduleModel.ts";
+import "./ScheduleSection.scss";
+import { ScheduleModel } from "../../models/ScheduleModel.ts";
 import ScheduleCard from "../ScheduleCard.tsx";
 
 const schedules: ScheduleModel[] = [
@@ -59,12 +59,12 @@ const ScheduleSection = () => {
             <div className="schedule-items">
                 {
                     schedules.map((schedule: ScheduleModel) => (
-                        <ScheduleCard title={schedule.title} description={schedule.description}/>
+                        <ScheduleCard title={schedule.title} description={schedule.description} />
                     ))
                 }
             </div>
         </div>
-    </Section>
-}
+    </Section>;
+};
 
 export default ScheduleSection;

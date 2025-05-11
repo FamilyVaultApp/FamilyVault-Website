@@ -1,12 +1,12 @@
-import {ReactNode, useEffect, useRef, useState} from "react";
-import "./AnimatedHighlightedText.scss"
+import { ReactNode, useEffect, useRef, useState } from "react";
+import "./AnimatedHighlightedText.scss";
 import classNames from "classnames";
 
 interface AnimatedHighlightedTextProps {
     children: ReactNode;
 }
 
-const AnimatedHighlightedText = ({children}: AnimatedHighlightedTextProps) => {
+const AnimatedHighlightedText = ({ children }: AnimatedHighlightedTextProps) => {
     const ref = useRef(null);
     const [isVisible, setVisible] = useState(false);
 
@@ -18,7 +18,7 @@ const AnimatedHighlightedText = ({children}: AnimatedHighlightedTextProps) => {
                     observer.unobserve(entry.target);
                 }
             },
-            {threshold: 0.1}
+            { threshold: 0.1 }
         );
 
         if (ref.current) {
@@ -30,7 +30,7 @@ const AnimatedHighlightedText = ({children}: AnimatedHighlightedTextProps) => {
         };
     }, []);
 
-    return <span ref={ref} className={classNames('highlighted', {"is-visible": isVisible})}>{children}</span>
-}
+    return <span ref={ref} className={classNames("highlighted", { "is-visible": isVisible })}>{children}</span>;
+};
 
 export default AnimatedHighlightedText;

@@ -1,7 +1,7 @@
 import Section from "./Section.tsx";
-import {ReactNode} from "react";
+import { ReactNode } from "react";
 import classNames from "classnames";
-import "./SectionWithPhoto.scss"
+import "./SectionWithPhoto.scss";
 
 interface ISectionWithPhotoProps {
     children: ReactNode,
@@ -9,17 +9,17 @@ interface ISectionWithPhotoProps {
     reversed: boolean
 }
 
-const SectionWithPhoto = ({children, photo, reversed}: ISectionWithPhotoProps) => {
+const SectionWithPhoto = ({ children, photo, reversed }: ISectionWithPhotoProps) => {
     return <Section>
-        <div className={classNames("section-with-photo", {"reversed": reversed})}>
+        <div className={classNames("section-with-photo", { "reversed": reversed })}>
             <div className="section-description">
                 {children}
             </div>
             <div className="section-photo">
-                <img src={photo} alt="Zdjęcie"/>
+                <img src={photo} alt="Zdjęcie" />
             </div>
         </div>
-    </Section>
-}
+    </Section>;
+};
 
 export default SectionWithPhoto;

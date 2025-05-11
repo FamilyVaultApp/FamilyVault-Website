@@ -1,6 +1,6 @@
-import {ReactNode} from "react";
+import { ReactNode } from "react";
 
 export interface ScheduleModel {
     title: string;
-    description: ReactNode
+    description: ReactNode;
 }

@@ -1,6 +1,6 @@
 import Section from "./Section.tsx";
-import "./ReportsSection.scss"
-import {ReportFileModel} from "../../models/ReportFileModel.ts";
+import "./ReportsSection.scss";
+import { ReportFileModel } from "../../models/ReportFileModel.ts";
 import ReportFileCard from "../ReportFileCard.tsx";
 
 const reports: ReportFileModel[] = [
@@ -44,12 +44,12 @@ const ReportsSection = () => {
             <div className="reports">
                 {
                     reports.map((reportFile) => (
-                        <ReportFileCard file={reportFile}/>
+                        <ReportFileCard file={reportFile} />
                     ))
                 }
             </div>
         </div>
-    </Section>
-}
+    </Section>;
+};
 
 export default ReportsSection;

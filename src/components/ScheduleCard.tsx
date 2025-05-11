@@ -1,18 +1,18 @@
-import {ReactNode} from "react";
-import "./ScheduleCard.scss"
+import { ReactNode } from "react";
+import "./ScheduleCard.scss";
 
 interface ScheduleCardProps {
     title: string;
-    description: ReactNode
+    description: ReactNode;
 }
 
-const ScheduleCard = ({title, description}: ScheduleCardProps) => {
+const ScheduleCard = ({ title, description }: ScheduleCardProps) => {
     return <div className="schedule-card">
         <h3>{title}</h3>
         <div className="description">
             {description}
         </div>
-    </div>
-}
+    </div>;
+};
 
 export default ScheduleCard;

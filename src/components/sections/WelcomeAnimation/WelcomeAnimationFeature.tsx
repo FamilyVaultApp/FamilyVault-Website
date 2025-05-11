@@ -1,13 +1,13 @@
-import {ReactNode} from "react";
-import "./WelcomeAnimationFeature.scss"
+import { ReactNode } from "react";
+import "./WelcomeAnimationFeature.scss";
 
 interface WelcomeAnimationFeature {
     featureIcon: ReactNode;
 }
 
-const WelcomeAnimationFeature = ({featureIcon}: WelcomeAnimationFeature) => {
+const WelcomeAnimationFeature = ({ featureIcon }: WelcomeAnimationFeature) => {
     return <div className="welcome-animation__feature_group__feature">
         {featureIcon}
-    </div>
-}
+    </div>;
+};
 export default WelcomeAnimationFeature;

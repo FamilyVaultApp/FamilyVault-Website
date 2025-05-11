@@ -1,13 +1,13 @@
-import {ReactNode} from "react"
-import "./Section.scss"
+import { ReactNode } from "react";
+import "./Section.scss";
 
 interface SectionProps {
-    children: ReactNode
+    children: ReactNode;
 }
 
-const Section = ({children}: SectionProps) => {
+const Section = ({ children }: SectionProps) => {
     return <div className="section">{children}
-    </div>
-}
+    </div>;
+};
 
 export default Section;

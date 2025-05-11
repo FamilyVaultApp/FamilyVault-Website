@@ -1,9 +1,9 @@
-import "./TeamPhotoSection.scss"
-import teamPhotoImgSrc from "../../assets/team_photo.jpg"
+import "./TeamPhotoSection.scss";
+import teamPhotoImgSrc from "../../assets/team_photo.jpg";
 import Section from "./Section.tsx";
 import AnimatedHighlightedText from "../AnimatedHighlightedText.tsx";
-import TeamMembers from "../TeamMembers.tsx"
-import {TeamMemberModel} from "../../models/TeamMemberModel.ts";
+import TeamMembers from "../TeamMembers.tsx";
+import { TeamMemberModel } from "../../models/TeamMemberModel.ts";
 
 const teamMembers: TeamMemberModel[] = [
     {
@@ -29,17 +29,17 @@ const teamMembers: TeamMemberModel[] = [
     {
         fullName: "Sajmon Koniec",
         role: "Programista"
-    },
-]
+    }
+];
 
 const TeamPhotoSection = () => {
     return <Section>
         <div className="team-photo-section">
             <h1>Poznaj <AnimatedHighlightedText>Zespół nr 1</AnimatedHighlightedText></h1>
-            <img className="team-photo" src={teamPhotoImgSrc} alt="FamilyVault Team"/>
-            <TeamMembers members={teamMembers}/>
+            <img className="team-photo" src={teamPhotoImgSrc} alt="FamilyVault Team" />
+            <TeamMembers members={teamMembers} />
         </div>
-    </Section>
-}
+    </Section>;
+};
 
 export default TeamPhotoSection;

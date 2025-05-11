@@ -1,6 +1,6 @@
 import AnimatedHighlightedText from "../AnimatedHighlightedText.tsx";
 import Section from "./Section.tsx";
-import "./MottoSection.scss"
+import "./MottoSection.scss";
 
 const MottoSection = () => {
     return <Section>
@@ -11,6 +11,6 @@ const MottoSection = () => {
             </h1>
         </div>
     </Section>;
-}
+};
 
 export default MottoSection;

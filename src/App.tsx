@@ -1,4 +1,4 @@
-import "./App.scss"
+import "./App.scss";
 import "bootstrap/dist/css/bootstrap.css";
 import WelcomeAnimation from "./components/sections/WelcomeAnimation/WelcomeAnimation";
 import MottoSection from "./components/sections/MottoSection.tsx";
@@ -14,18 +14,18 @@ import DocumentationSection from "./components/sections/DocumentationSection.tsx
 function App() {
     return (
         <>
-            <WelcomeAnimation/>
-            <MottoSection/>
+            <WelcomeAnimation />
+            <MottoSection />
             <div className="app_info_sections">
-                <JoinSection/>
-                <ChatSection/>
-                <TasksSection/>
+                <JoinSection />
+                <ChatSection />
+                <TasksSection />
             </div>
-            <DocumentationSection/>
-            <TeamPhotoSection/>
-            <MeetingsSection/>
-            <ScheduleSection/>
-            <ReportsSection/>
+            <DocumentationSection />
+            <TeamPhotoSection />
+            <MeetingsSection />
+            <ScheduleSection />
+            <ReportsSection />
         </>
     );
 }

@@ -12,9 +12,9 @@ $numberOfFeatures: 5;
   $topValue: 45%;
 
   @for $i from 1 through $n {
-    @if($i < $halfOfNumberOfFeatures+1) {
+    @if ($i < $halfOfNumberOfFeatures+1) {
       $topValue: $topValue - $featureTopGap;
-    }@else {
+    } @else {
       $topValue: $topValue + $featureTopGap;
     }
   }
@@ -43,7 +43,7 @@ $numberOfFeatures: 5;
   animation-duration: 1.5s;
   animation-delay: 0.5s;
   animation-fill-mode: forwards;
-  animation-timing-function: cubic-bezier(.95,.05,.8,.04);
+  animation-timing-function: cubic-bezier(.95, .05, .8, .04);
   animation-name: #{$keyframes-name};
 }
 

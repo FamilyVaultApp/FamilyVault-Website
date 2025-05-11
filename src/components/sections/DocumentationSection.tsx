@@ -1,5 +1,5 @@
 import Section from "./Section.tsx";
-import "./DocumentationSection.scss"
+import "./DocumentationSection.scss";
 
 const DocumentationSection = () => {
     return <Section>
@@ -14,7 +14,7 @@ const DocumentationSection = () => {
                 <a href="/" className="disabled">Link do dokumentacji</a>
             </div>
         </div>
-    </Section>
-}
+    </Section>;
+};
 
-export default DocumentationSection
+export default DocumentationSection;

@@ -1,5 +1,5 @@
-import {ReactNode} from "react"
-import "./HeaderWithDescription.scss"
+import { ReactNode } from "react";
+import "./HeaderWithDescription.scss";
 
 interface HeaderWithDescriptionProps {
     children: ReactNode,
@@ -7,12 +7,12 @@ interface HeaderWithDescriptionProps {
     title: string,
 }
 
-const HeaderWithDescription = ({icon, title, children}: HeaderWithDescriptionProps) => {
+const HeaderWithDescription = ({ icon, title, children }: HeaderWithDescriptionProps) => {
     return <div className="header-with-description">
         {icon}
         <h3>{title}</h3>
         <p>{children}</p>
-    </div>
-}
+    </div>;
+};
 
-export default HeaderWithDescription
+export default HeaderWithDescription;

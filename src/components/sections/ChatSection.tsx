@@ -13,7 +13,8 @@ const ChatSection = () => {
 
             <p>
                 Wszystko jest szyfrowane za pomocą <b>zaawansowanych metod kryptograficznych</b>, dzięki czemu masz
-                pewność, że tylko osoby, które są w Twoim czacie, będą mogły odczytać wysłane treści.
+                pewność, że tylko osoby, które są w Twoim czacie, będą mogły odczytać wysłane treści, a poufne dane
+                Twojej rodziny nie są przekazywane dalej nieuprawnionym osobom i firmom.
             </p>
         </HeaderWithDescription>
     </SectionWithPhoto>;

@@ -8,17 +8,19 @@ const TasksSection = () => {
         <HeaderWithDescription title={"Lista zadań"} icon={<ClipboardTaskRegular />}>
             <p>
                 Lista zadań w naszej aplikacji pozwala na <b>łatwe przypisywanie zadań</b> do różnych członków rodziny,
-                co
-                umożliwia skuteczne <b>zarządzanie obowiązkami</b>.
+                co wspiera skuteczne <b>zarządzanie domowymi obowiązkami</b>.
             </p>
             <p>
-                Każde zadanie możesz przypisać <b>konkretnej osobie</b>, i <b>dodać szczegóły</b>, aby wszystko było
+                Każde zadanie możesz przypisać <b>konkretnej osobie</b> i <b>dodać szczegóły</b>, aby wszystko było
                 jasne.
             </p>
             <p>
-                To idealne narzędzie do uporządkowania <b>codziennych obowiązków</b> i organizacji <b>wspólnego
-                czasu</b>. Wszystko
-                dodatkowo szyfrowane <b>E2EE</b>.
+                To idealne narzędzie, które wspomaga organizację domowych obowiązków, bez obciążania uwagi użytkowników
+                przez zbędną grywalizację czy angażujące powiadomienia.
+            </p>
+            <p>
+                Wszystkie ważne sprawy Twojej rodziny pozostają tylko Wasze – dzięki szyfrowaniu E2E nikt z zewnątrz nie
+                ma do nich dostępu.
             </p>
         </HeaderWithDescription>
     </SectionWithPhoto>;

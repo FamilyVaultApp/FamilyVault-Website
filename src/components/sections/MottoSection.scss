@@ -5,5 +5,22 @@ div.motto-section {
     text-align: center;
     font-size: xxx-large;
   }
+
+  div.motto-about {
+    margin-block: 8rem;
+    font-size: x-large;
+    text-align: center;
+
+    &--elements {
+      text-align: center;
+      margin-inline: auto;
+      width: min(40rem, 100vw);
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+    }
+  }
 }
 

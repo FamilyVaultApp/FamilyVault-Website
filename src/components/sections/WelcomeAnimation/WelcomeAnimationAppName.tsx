@@ -3,7 +3,7 @@ import "./WelcomeAnimationAppName.scss";
 const WelcomeAnimationAppName = () => {
     return (
         <div className="welcome-animation__app-name">
-            <h1>Family Vault</h1>
+            <h1>FamilyVault</h1>
         </div>
     );
 };

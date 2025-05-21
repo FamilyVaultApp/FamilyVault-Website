@@ -125,6 +125,59 @@ const meetings: MeetingModel[] = [
             </>
         ),
     },
+    {
+        day: 30,
+        month: "Kwietnia",
+        description: (
+            <>
+                <p>
+                    <b>
+                        Spotkanie zdalne, podsumowanie dotychczasowego etapu
+                        prac
+                    </b>
+                </p>
+                <p>Przedstawienie modułu listy zadań oraz szafy</p>
+            </>
+        ),
+    },
+    {
+        day: 12,
+        month: "Maja",
+        description: (
+            <>
+                <p>
+                    <b>Przedstawienie efektów pracy nad aplikacją</b>
+                </p>
+                <p>Omówienie postępów</p>
+            </>
+        ),
+    },
+    {
+        day: 19,
+        month: "Maja",
+        description: (
+            <>
+                <p>
+                    <b>Rozpoczęcie prac nad prezentacją projektu</b>
+                </p>
+                <p>
+                    Omówienie wizji prezentacji projektu oraz wstępny zarys jej
+                    przeprowadzenia.
+                </p>
+            </>
+        ),
+    },
+    {
+        day: 26,
+        month: "Maja",
+        description: (
+            <>
+                <p>
+                    <b>Próbna prezentacja projektu w siedzibie Simplito</b>
+                </p>
+            </>
+        ),
+    },
 ];
 
 const MeetingsSection = () => {

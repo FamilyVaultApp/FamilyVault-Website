@@ -30,7 +30,7 @@ Strona została zbudowana przy użyciu następujących technologii:
 
 ## Uruchomienie Projektu
 
-Aby uruchomić projekt lokalnie, wykonaj następujące kroki:
+Aby uruchomić projekt lokalnie w systemie Linux, wykonaj następujące kroki:
 
 1.  Sklonuj repozytorium:
     ```sh

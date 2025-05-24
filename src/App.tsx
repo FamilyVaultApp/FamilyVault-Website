@@ -10,6 +10,7 @@ import MeetingsSection from "./components/sections/MeetingsSection.tsx";
 import ScheduleSection from "./components/sections/ScheduleSection.tsx";
 import ReportsSection from "./components/sections/ReportsSection.tsx";
 import DocumentationSection from "./components/sections/DocumentationSection.tsx";
+import SourceCodeSection from "./components/sections/SourceCodeSection.tsx";
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
                 <TasksSection />
             </div>
             <DocumentationSection />
+            <SourceCodeSection />
             <TeamPhotoSection />
             <MeetingsSection />
             <ScheduleSection />

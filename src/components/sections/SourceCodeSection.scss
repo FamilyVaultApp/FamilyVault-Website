@@ -1,4 +1,4 @@
-.documentation-section {
+.source-code-section {
   margin-block: 10rem;
   text-align: center;
 
@@ -14,7 +14,6 @@
   }
 
   &-link {
-
     margin-top: 4rem;
 
     a {
@@ -34,15 +33,9 @@
         background-color: #0063e5;
       }
 
-      &.disabled {
-        background-color: #a0a0a0;
-        pointer-events: none;
-        cursor: not-allowed;
-        color: #eee;
-      }
-
       svg {
         font-size: 20px;
+        font-weight: 600;
       }
     }
   }

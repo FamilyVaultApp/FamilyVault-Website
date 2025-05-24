@@ -18,9 +18,9 @@ const MottoSection = () => {
                     </p>
                     <div className="motto-about--elements">
                         <ul>
-                            <li>odpowiednie dla dzieci nawet poniżej 13 lat</li>
+                            <li>odpowiednie dla dzieci poniżej 13 roku życia</li>
                             <li>non-profit</li>
-                            <li>open-source</li>
+                            <li>otwarty kod źródłowy</li>
                             <li>private-by-default</li>
                             <li>wszystkie dane chronione E2EE</li>
                         </ul>

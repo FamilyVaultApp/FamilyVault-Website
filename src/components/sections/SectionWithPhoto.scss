@@ -30,12 +30,35 @@
 @media (max-width: 720px) {
   .section-with-photo {
     flex-direction: column;
-
-    gap: 5em;
+    gap: 2rem;
 
     .section-description,
     .section-photo {
       width: 100%;
+      max-height: none;
+    }
+
+    .section-photo {
+      order: 2;
+
+      img {
+        width: 80%;
+        max-width: 400px;
+      }
+    }
+
+    .section-description {
+      order: 1;
+    }
+
+    &.reversed {
+      .section-photo {
+        order: 2;
+      }
+
+      .section-description {
+        order: 1;
+      }
     }
   }
 }

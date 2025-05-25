@@ -1,10 +1,9 @@
 import "./WelcomeAnimationPhoneSecurity.scss";
-import { LockShieldRegular } from "@fluentui/react-icons";
+import iconSrc from "../../../assets/icon.png";
 
 const WelcomeAnimationPhoneSecurity = () => {
     return <div className="welcome-animation__phone__security">
-        <LockShieldRegular />
-        <p>E2EE</p>
+        <img src={iconSrc} alt="FamilyVault icon" />
     </div>;
 };
 

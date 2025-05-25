@@ -1,5 +1,6 @@
 import Section from "./Section.tsx";
 import "./DocumentationSection.scss";
+import { DocumentRegular } from "@fluentui/react-icons";
 
 const DocumentationSection = () => {
     return <Section>
@@ -11,7 +12,10 @@ const DocumentationSection = () => {
             </div>
             <div className="documentation-section-link">
                 {/* TODO: Dodaj link do dokumentacji */}
-                <a href="/" className="disabled">Link do dokumentacji</a>
+                <a href="/" className="disabled">
+                    <DocumentRegular />
+                    Link do dokumentacji
+                </a>
             </div>
         </div>
     </Section>;

@@ -14,11 +14,20 @@ div.motto-section {
     &--elements {
       text-align: center;
       margin-inline: auto;
-      width: min(40rem, 100vw);
+      width: min(40rem, 90%);
+      padding-inline: 1rem;
 
       ul {
         list-style: none;
         padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        li {
+          overflow-wrap: break-word;
+          hyphens: auto;
+        }
       }
     }
   }

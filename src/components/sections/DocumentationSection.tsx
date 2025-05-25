@@ -11,8 +11,7 @@ const DocumentationSection = () => {
                     FamilyVault, znajdziesz w naszej dokumentacji.</p>
             </div>
             <div className="documentation-section-link">
-                {/* TODO: Dodaj link do dokumentacji */}
-                <a href="/" className="disabled">
+                <a href="docs/docs/intro">
                     <DocumentRegular />
                     Link do dokumentacji
                 </a>

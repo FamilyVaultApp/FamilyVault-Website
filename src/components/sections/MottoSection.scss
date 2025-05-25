@@ -25,7 +25,7 @@ div.motto-section {
         gap: 0.5rem;
 
         li {
-          word-wrap: break-word;
+          overflow-wrap: break-word;
           hyphens: auto;
         }
       }
